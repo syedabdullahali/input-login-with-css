@@ -119,3 +119,36 @@ form{
 }
 
 
+@media(max-width:500px){
+    form{
+        width:300px;
+        height: 200px;
+    
+        padding: 4rem 1rem;
+    
+        border-radius: 1rem;
+    
+    }  
+
+    .form_title{
+        font-weight: 400;
+    
+        margin-top: -1rem;
+    }
+
+    .form_div{
+        position: relative;
+    
+        height: 38px;
+    
+        margin-bottom: 1.5rem;
+    }
+
+    .form__label{
+        position: absolute;
+        left:6.5rem;
+        top:1.5rem;
+    
+    }
+   
+}
